@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 3: Class Exercise</title>
+
+    </style>
+
+    <link rel="stylesheet" href="css/main.css">
+    
+    <style>
+    
+    html,body,h1{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 80%;
+    height: 80px;
+    background-color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+header{
+    width: 100%;
+    height: 60vh;
+    background-color: lightgray;
+}
+
+footer{
+    width: 100%;
+    height:100px;
+    background-color:black;
+    color: white;
+    text-align:center;
+}
+
+section{
+    width:80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.full{
+    height: 170px
+}
+
+
+.col-12{
+ width:100%;
+ height:100px;
+ background-color: grey;
+ text-align:center;
+ margin: 1%
+}
+
+.half{
+    height:370px
+}
+
+.col-6{
+    width: 48%;
+    height: 300px;
+    background-color: grey;
+    text-align: center;
+    margin: 1%;
+    float: left;
+}
+.third{
+    height: 320px;
+}
+
+.col-4{
+    width: 31.33%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    margin: 1%;
+    float: left;
+}
+
+.quarter{
+    height: 320px;
+}
+
+.col-3{
+    width: 23%;
+    height: 250px;
+    background-color: grey;
+    text-align: center;
+    margin: 1%;
+    float: left;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+}
+
+.nav-con{
+    width: 550px;
+    height: 80px;
+    float: right;
+    margin-top: 5px;
+}
+
+.nav-con ul{
+    list-style:none;
+} 
+
+.nav-con, li{
+    float: right;
+    height: 26px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+/* Navigation */
+
+.nav-con li:hover{
+    background: #474747;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+li {
+    color: #000;
+}
+
+
+.logo {
+    width: 200px;
+    float: left;
+    margin-top: 16px;
+}
+
+li:hover {
+    background: #2b2b2b;
+    color: white;
+    cursor: pointer;
+}
+
+h3.Headertext {
+    padding-top: 153px;
+    padding-left: 99px;
+    font-size: 33px;
+}
+
+p.paragraphtext {
+    padding-left: 101px;
+}
+
+h3.Headertext {
+    margin-bottom: 9px;
+}
+
+h3.Headertext {
+    margin-bottom: 6px;
+    margin-top: 0px;
+}
+
+section.third {
+    margin-top: -55px;
+}
+
+
+.col-12 {
+    color: white;
+}
+
+.col-4 {
+    color: white;
+
+}
+
+.col-3 {
+    color: white;
+}
+
+.col-6 {
+    color: white;
+}
+
+
+element.style {
+}
+p.Footertext {
+    padding-top: 39px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+li.button.color {
+    background: black;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #323232;
+    color: white;
+    text-align: center;
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="logo"><h1>Logo</h1></div>
+        <div class="nav.con">
+            <ul>
+                <a href="#"><li>Page Four</li></a>
+                <li>Page Three </li>
+                <li class="pageone"><a href="Index.html" class="pageone-link">Page Two</a></li>
+                <li>Page One</li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h3 class="Headertext">This is the Second Page!
+            </h3>
+            <p class="paragraphtext">Lets practice some Layout and Positioning of Elements</p>
+    </header>
+    <section class="full">
+        <div class="col-12">This is a Full Width Column!</div>
+    </section>
+
+    
+
+    <section class="third">
+        <h3>This is a 33.33% Layout</h3>
+        <div class="col-4">Column One</div>
+        <div class="col-4">Column Two</div>
+        <div class="col-4">Column Three</div>
+    </section>
+    
+    <section class="quarter">
+        <h3>This is a 25% Layout</h3>
+        <div class="col-3">Column One</div>
+        <div class="col-3">Column Two</div>
+        <div class="col-3">Column Three</div>
+        <div class="col-3">Column four</div> 
+    </section>
+
+    <section class="half">
+        <h3>This is a 50% Layout</h3>
+        <div class="col-6">Column One</div>
+        <div class="col-6">Column Two</div>
+    </section>
+
+    <footer><p class="Footertext">This is the footer...</p></footer>
+</body>
+</html>
